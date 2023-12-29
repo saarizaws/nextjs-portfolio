@@ -15,8 +15,8 @@ const navLinks = [
     path: "#projects",
   },
   {
-    title: "Contact",
-    path: "#contact",
+    title: "Contact Us",
+    path: "mailto:saadriazahmad@outlook.com",
   },
 ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          QuantumVerse
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
